@@ -1,0 +1,38 @@
+.Agile {
+  background: url("/Users/manikanta.kailasa/projects/website/drive-react-css-modules/src/images/3.webp")
+    no-repeat center/cover;
+  width: 100%;
+  height: 900px;
+
+  display: flex;
+}
+.overlay {
+  width: 100%;
+  height: 900px;
+
+  display: flex;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.driver {
+  max-width: 1040px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
+
+.driver h2 {
+  padding-top: 5%;
+  color:#fff
+}
+
+.driver span {
+  color: #cebeb6;
+}
+
+.driver p {
+  font-size: 1rem;
+  color: #a29b96;
+  padding: 1.5rem 0;
+}

@@ -1,0 +1,29 @@
+.numbers {
+  padding: 7rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.numbers .size {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #232323;
+}
+
+.numbers .plus {
+  padding: 0 0.5rem;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #e6994e;
+}
+
+.numbers .text {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  line-height: 20px;
+  color: #828282;
+}

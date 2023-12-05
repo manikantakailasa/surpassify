@@ -1,0 +1,43 @@
+.ourservice {
+  width: 100%;
+  margin-top: 50px;
+}
+.ourservice p:first-child {
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  color: #fb8302;
+}
+
+/* .ourservice p:last-child {
+  color: rgb(87, 85, 85);
+  font-size: 2rem;
+  font-weight: 600;
+} */
+
+/* .MuiStack-root:hover {
+  color: #e1e6e1;
+  transform: color 300ms liner;
+} */
+
+.ourservice .textborder {
+  border: 1px solid #e4e4e4;
+  border-left: 0;
+  /* border-bottom: 0; */
+  /* color: rgb(87, 85, 85); */
+  color: black;
+  font-size: 1.6rem;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+/* .ourservice div:hover {
+  color: white;
+  transform: color 2000ms ease;
+} */
+/* 
+.ourservice div:hover:first-child {
+  background-color: color-mix(in srgb, #fb8302 90%, black 10%);
+} */
