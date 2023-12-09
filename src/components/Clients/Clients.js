@@ -27,9 +27,7 @@ const Clients = () => {
         justifyContent="center"
         alignItems="center"
       >
-        <div className={styles.clienttext}>
-          FIRMS OUR CONSULTANTS HAVE WORKED WITH
-        </div>
+        <div className={styles.clienttext}>OUR CONSULTANT'S CLIENTS</div>
         <Grid container width="80%">
           <Grid item xs={12} direction="column">
             <div className={styles.dflexcontainer}>

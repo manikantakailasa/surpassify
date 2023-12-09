@@ -5,20 +5,13 @@ import image from "../../images/SELF-TEAM-COMPANY - right1.png";
 const Approach = () => {
   return (
     <section className={styles.approach}>
-      <Grid
-        container
-        sx={{ minHeight: "500px" }}
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        paddingLeft="25px"
-      >
-        <Grid item md={6} className={styles.text}>
+      <Grid container className={styles.container}>
+        <Grid item md={4} className={styles.text}>
           We drive and expedite transformative growth for executives and
           leadership teams, fostering accelerated development and sustained
           success.
         </Grid>
-        <Grid item md={6}>
+        <Grid item md={8}>
           <img src={image} className={styles.sectionback} />
         </Grid>
       </Grid>

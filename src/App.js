@@ -10,22 +10,32 @@ import Clients from "./components/Clients/Clients";
 import Ourservice from "./components/ourservice/Ourservice";
 import Approach from "./components/approach/Approach";
 import Numbers from "./components/numbers/Numbers";
+import Aboutus from "./components/aboutus/Aboutus";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import MainLanding from "./components/mainLanding/MainLanding";
+import Contactus from "./components/contactus/Contactus";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Landing />
-      <Clients />
-      <WhatWeDo />
-      <Ourservice />
-      <Approach />
-      <Numbers />
-      <Agile />
+    <Router>
+      <div
+        style={{
+          overflow: "hidden",
+        }}
+      >
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<MainLanding />}></Route>
+          <Route path="/source" element={<Landing />}></Route>
+          <Route path="/contact" element={<Contactus />}></Route>
+        </Routes>
+
+        {/* <Agile />
       <Driver />
-      <Luxury />
-      <Footer />
-    </div>
+    <Luxury /> */}
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

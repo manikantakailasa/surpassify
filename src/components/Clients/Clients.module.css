@@ -8,7 +8,7 @@
 
 .dflexcontainer {
   width: 100%;
-  height: 120px;
+  height: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@
 
 .dflex {
   width: 100%; /* Set to a multiple of 100% to ensure seamless looping */
-  height: 130px;
+  height: 100px;
   will-change: transform;
   transform: translate3d(0, 0, 0); /* Enable hardware acceleration */
   animation: animateContainer 5s linear infinite;

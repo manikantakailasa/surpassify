@@ -6,6 +6,17 @@
   background-color: white;
 }
 
+.numbers .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 22rem;
+}
+
+.numbers .subcontainer {
+  padding: 0 5rem;
+}
+
 .numbers .size {
   font-size: 3.5rem;
   font-weight: 600;
@@ -26,4 +37,41 @@
   letter-spacing: 2px;
   line-height: 20px;
   color: #828282;
+}
+
+@media screen and (max-width: 950px) {
+  .numbers .subcontainer {
+    padding: 3rem;
+  }
+}
+@media screen and (max-width: 755px) {
+  .numbers .subcontainer {
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 630px) {
+  .numbers .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .numbers .container {
+    padding: 0 2rem;
+
+    flex-wrap: wrap;
+  }
+  .numbers .subcontainer {
+    justify-content: center;
+    align-items: center;
+  }
+  .numbers .text {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .numbers {
+    padding: 0;
+  }
 }

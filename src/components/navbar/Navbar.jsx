@@ -8,6 +8,7 @@ import {
   AiOutlineMenu,
   AiOutlineClose,
 } from "react-icons/ai";
+import { Link } from "@mui/material";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -30,40 +31,33 @@ const Navbar = () => {
   }, []);
   return (
     <nav className={isScrolled ? styles.sticky : styles.navbar}>
-      <img src={Logo} alt="Logo" style={{ width: "300px" }} />
+      <img
+        onClick={() => (window.location = "./")}
+        style={{ cursor: "pointer" }}
+        src={Logo}
+        alt="Logo"
+        width="230px"
+      />
       <ul
         className={nav ? [styles.menu, styles.active].join(" ") : [styles.menu]}
       >
         <li style={{ border: "2px solid white", borderRadius: "38%" }}>
-          <a
-            onClick={() => {
-              window.scrollTo({
-                top: document.querySelector("#about").offsetTop,
-                behavior: "smooth",
-              });
-            }}
-          >
+          <Link style={{ textDecoration: "none" }} href="/">
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/#">Services</a>
+          <a href="/service">Services</a>
         </li>
         <li>
-          <a href="/#">Whats New?</a>
+          <a href="/whatsnew">Whats New?</a>
         </li>
         <li>
-          <a href="/#">Resources</a>
+          <a href="/resource">Resources</a>
         </li>
         <li>
-          <a href="/#">contact</a>
+          <a href="/contact">contact</a>
         </li>
-        {/* <li>
-          <AiOutlineSearch size={25} style={{ marginTop: "6px" }} />
-        </li>
-        <li>
-          <AiOutlineUser size={25} style={{ marginTop: "6px" }} />
-        </li> */}
       </ul>
       <div onClick={() => setNav(!nav)} className={styles.mobile_btn}>
         {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
