@@ -31,7 +31,7 @@ const Contactus = () => {
         </div>
       </div>
       <Stack className={styles.form} direction="row">
-        <img src={schedule} width="50%" height="50%" />
+        <img src={schedule} width="30%" height="30%" />
 
         <div>
           <p className={styles.subheading}>How can we help you today?</p>

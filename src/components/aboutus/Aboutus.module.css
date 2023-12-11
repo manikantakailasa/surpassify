@@ -15,25 +15,31 @@
 }
 
 .images {
-  width: 100%;
+  width: 60%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   position: absolute;
-  top: 80%;
-  background: rgba(0, 0, 0, 0.5);
+  top: 83%;
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: rgb(196, 196, 196);
 }
 
 .images img {
-  width: 5%;
-  height: 5%;
-  margin: 20px;
+  width: 15%;
+  height: 15%;
+  margin: 10px 20px;
 }
 
 @media screen and (max-width: 1040px) {
   .aboutus .container {
     margin: 0;
     width: 100%;
+  }
+  .images {
+    width: 100%;
+    top: 85%;
+    background: transparent;
   }
   .images img {
     width: 10%;

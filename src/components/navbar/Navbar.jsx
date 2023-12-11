@@ -8,11 +8,19 @@ import {
   AiOutlineMenu,
   AiOutlineClose,
 } from "react-icons/ai";
-import { Link } from "@mui/material";
+import { Divider, Link, ListItemIcon, Menu, MenuItem } from "@mui/material";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [isScrolled, setScrolled] = useState(false);
+  const [anchorEl, setAnchorEl] = useState(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
   useEffect(() => {
     const handleScroll = () => {
       if (window !== undefined) {
@@ -29,6 +37,7 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <nav className={isScrolled ? styles.sticky : styles.navbar}>
       <img
@@ -47,7 +56,51 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <a href="/service">Services</a>
+          <a onMouseEnter={handleClick}>Services</a>
+          <Menu
+            anchorEl={anchorEl}
+            id="account-menu"
+            open={open}
+            onClose={handleClose}
+            onClick={handleClose}
+            
+            PaperProps={{
+              elevation:0,
+              sx: {
+                overflow: "visible",
+                width: "100%",
+                filter: "drop-shadow(0px 2px 8px rgba(0,0,0,0.32))",
+                mt: 3,
+                "& .MuiAvatar-root": {
+                  width: 132,
+                  height: 32,
+                  ml: -0.5,
+                  mr: 1,
+                },
+                "&:before": {
+                  content: '""',
+                  display: "block",
+                  position: "absolute",
+                  top: 0,
+                  right: 400,
+                  width: 10,
+                  height: 10,
+                  bgcolor: "background.paper",
+                  transform: "translateY(-50%) rotate(45deg)",
+                  zIndex: 0,
+                },
+              },
+            }}
+            transformOrigin={{ horizontal: "right", vertical: "top" }}
+            anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
+          >
+            <MenuItem onClick={handleClose}>Profile</MenuItem>
+            <MenuItem onClick={handleClose}>My account</MenuItem>
+            <Divider />
+            <MenuItem onClick={handleClose}>Add another account</MenuItem>
+            <MenuItem onClick={handleClose}>Settings</MenuItem>
+            <MenuItem onClick={handleClose}>Logout</MenuItem>
+          </Menu>
         </li>
         <li>
           <a href="/whatsnew">Whats New?</a>

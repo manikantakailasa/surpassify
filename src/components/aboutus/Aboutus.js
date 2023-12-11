@@ -1,25 +1,25 @@
 import styles from "./Aboutus.module.css";
-import aboutus from "../../images/aboutus1.png";
-import eq from "../../images/EQ-i.png";
-import marshall from "../../images/Mashall-Goldsmith-logo.webp";
-import cfi from "../../images/CFI-logo.png";
-import mbti from "../../images/mbti-logo.png";
-import thomas from "../../images/thomas-logo.png";
-import hogan from "../../images/hogan-logo.webp";
+import aboutus from "../../images/aboutus.png";
+import eq from "../../images/eqilogo.png";
+import marshall from "../../images/marshalllogo.png";
+import cfi from "../../images/cfilogo.png";
+import mbti from "../../images/mbtilogo.png";
+import thomas from "../../images/thomaslogo.png";
+import hogan from "../../images/hogonlogo.png";
 import { Stack } from "@mui/material";
 
 const Aboutus = () => {
   return (
-    <section className={styles.aboutus}>
-      <Stack>
+    <section>
+      <Stack className={styles.aboutus}>
         <img src={aboutus} className={styles.container} />
         <div className={styles.images}>
-          <img src={mbti} />
           <img src={marshall} />
-          <img src={cfi} />
+          <img src={mbti} />
           <img src={eq} />
-          <img src={thomas} />
           <img src={hogan} />
+          <img src={thomas} />
+          <img src={cfi} />
         </div>
       </Stack>
     </section>
