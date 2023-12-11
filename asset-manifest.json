@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/surpassify/static/css/main.e7fb1276.css",
-    "main.js": "/surpassify/static/js/main.242fffc6.js",
+    "main.css": "/surpassify/static/css/main.03447d3c.css",
+    "main.js": "/surpassify/static/js/main.e3bd376c.js",
     "static/media/aboutus.png": "/surpassify/static/media/aboutus.66a1b43a28641e942350.png",
     "static/media/Home.png": "/surpassify/static/media/Home.17987d4d0c6504b99630.png",
     "static/media/whatwedo.png": "/surpassify/static/media/whatwedo.b8ad371f577cb70bf439.png",
     "static/media/schedulecall.png": "/surpassify/static/media/schedulecall.46355683eae7b0171a96.png",
     "static/media/nats.png": "/surpassify/static/media/nats.137d2598c4f5f72d8b30.png",
-    "static/media/drive.png": "/surpassify/static/media/drive.6bd20e182296ea68fb9b.png",
     "static/media/Danfos.png": "/surpassify/static/media/Danfos.bfcec4e757cafb14b48c.png",
     "static/media/applied.png": "/surpassify/static/media/applied.1cf76a9da47964c98700.png",
     "static/media/lloyds.png": "/surpassify/static/media/lloyds.6704409010d008fc6b29.png",
@@ -22,7 +21,6 @@
     "static/media/contactus.webp": "/surpassify/static/media/contactus.c5b5a098982bf55dc991.webp",
     "static/media/aboutus-bg.jpg": "/surpassify/static/media/aboutus-bg.07456b65e38e398032ae.jpg",
     "static/media/logo.png": "/surpassify/static/media/logo.cf2f815428c87ba2ca58.png",
-    "static/media/3.webp": "/surpassify/static/media/3.0907392f124336a2d422.webp",
     "static/media/marshalllogo.png": "/surpassify/static/media/marshalllogo.477bcfdbd84da1764b45.png",
     "static/media/cfilogo.png": "/surpassify/static/media/cfilogo.b54701ecfa26b4f7488a.png",
     "static/media/eqilogo.png": "/surpassify/static/media/eqilogo.e179eedad49ac46ff576.png",
@@ -33,11 +31,11 @@
     "static/media/green.webp": "/surpassify/static/media/green.a433370e3bb79379d490.webp",
     "static/media/red.webp": "/surpassify/static/media/red.9937f34bb961b5a393e3.webp",
     "index.html": "/surpassify/index.html",
-    "main.e7fb1276.css.map": "/surpassify/static/css/main.e7fb1276.css.map",
-    "main.242fffc6.js.map": "/surpassify/static/js/main.242fffc6.js.map"
+    "main.03447d3c.css.map": "/surpassify/static/css/main.03447d3c.css.map",
+    "main.e3bd376c.js.map": "/surpassify/static/js/main.e3bd376c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7fb1276.css",
-    "static/js/main.242fffc6.js"
+    "static/css/main.03447d3c.css",
+    "static/js/main.e3bd376c.js"
   ]
 }
