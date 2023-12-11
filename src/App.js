@@ -16,9 +16,9 @@ function App() {
       >
         <Navbar />
         <Routes>
-          <Route exact path="./" element={<MainLanding />}></Route>
-          <Route path="./source" element={<Landing />}></Route>
-          <Route path="./contact" element={<Contactus />}></Route>
+          <Route exact path="./surpassify/" element={<MainLanding />}></Route>
+          <Route path="./surpassify/source" element={<Landing />}></Route>
+          <Route path="./surpassify/contact" element={<Contactus />}></Route>
         </Routes>
 
         {/* <Agile />
