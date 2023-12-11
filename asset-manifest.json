@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/surpassify/static/css/main.e7fb1276.css",
+    "main.js": "/surpassify/static/js/main.242fffc6.js",
+    "static/media/aboutus.png": "/surpassify/static/media/aboutus.66a1b43a28641e942350.png",
+    "static/media/Home.png": "/surpassify/static/media/Home.17987d4d0c6504b99630.png",
+    "static/media/whatwedo.png": "/surpassify/static/media/whatwedo.b8ad371f577cb70bf439.png",
+    "static/media/schedulecall.png": "/surpassify/static/media/schedulecall.46355683eae7b0171a96.png",
+    "static/media/nats.png": "/surpassify/static/media/nats.137d2598c4f5f72d8b30.png",
+    "static/media/drive.png": "/surpassify/static/media/drive.6bd20e182296ea68fb9b.png",
+    "static/media/Danfos.png": "/surpassify/static/media/Danfos.bfcec4e757cafb14b48c.png",
+    "static/media/applied.png": "/surpassify/static/media/applied.1cf76a9da47964c98700.png",
+    "static/media/lloyds.png": "/surpassify/static/media/lloyds.6704409010d008fc6b29.png",
+    "static/media/SELF-TEAM-COMPANY - right1.png": "/surpassify/static/media/SELF-TEAM-COMPANY - right1.fdd5cd81ff1eb0c9ce74.png",
+    "static/media/newfold.png": "/surpassify/static/media/newfold.5dbbe8996bc771381fe1.png",
+    "static/media/Nielsen.png": "/surpassify/static/media/Nielsen.01b93e9dd78185ac18ac.png",
+    "static/media/boeing.png": "/surpassify/static/media/boeing.09897bde627f439c06a4.png",
+    "static/media/fedex.png": "/surpassify/static/media/fedex.e9aa34ee5f42e4788b26.png",
+    "static/media/betfair.png": "/surpassify/static/media/betfair.c1f02ad445f68fddac6c.png",
+    "static/media/ericssion.png": "/surpassify/static/media/ericssion.8a80b633496933af9097.png",
+    "static/media/back.png": "/surpassify/static/media/back.dc6c9c215798cc579f04.png",
+    "static/media/contactus.webp": "/surpassify/static/media/contactus.c5b5a098982bf55dc991.webp",
+    "static/media/aboutus-bg.jpg": "/surpassify/static/media/aboutus-bg.07456b65e38e398032ae.jpg",
+    "static/media/logo.png": "/surpassify/static/media/logo.cf2f815428c87ba2ca58.png",
+    "static/media/3.webp": "/surpassify/static/media/3.0907392f124336a2d422.webp",
+    "static/media/marshalllogo.png": "/surpassify/static/media/marshalllogo.477bcfdbd84da1764b45.png",
+    "static/media/cfilogo.png": "/surpassify/static/media/cfilogo.b54701ecfa26b4f7488a.png",
+    "static/media/eqilogo.png": "/surpassify/static/media/eqilogo.e179eedad49ac46ff576.png",
+    "static/media/mbtilogo.png": "/surpassify/static/media/mbtilogo.c10a8927f0862dab983f.png",
+    "static/media/thomaslogo.png": "/surpassify/static/media/thomaslogo.0d92c0b8ef489dfb4a94.png",
+    "static/media/hogonlogo.png": "/surpassify/static/media/hogonlogo.f236fa2709c7af425808.png",
+    "static/media/orange.webp": "/surpassify/static/media/orange.10fb53b23690c4e140e3.webp",
+    "static/media/green.webp": "/surpassify/static/media/green.a433370e3bb79379d490.webp",
+    "static/media/red.webp": "/surpassify/static/media/red.9937f34bb961b5a393e3.webp",
+    "index.html": "/surpassify/index.html",
+    "main.e7fb1276.css.map": "/surpassify/static/css/main.e7fb1276.css.map",
+    "main.242fffc6.js.map": "/surpassify/static/js/main.242fffc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7fb1276.css",
+    "static/js/main.242fffc6.js"
+  ]
+}
