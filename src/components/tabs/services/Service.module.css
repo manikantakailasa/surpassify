@@ -1,0 +1,11 @@
+.service {
+  min-height: 700px;
+  background: url("../../../images/serviceback.webp") no-repeat center/cover;
+}
+
+.service .overlay {
+  width: 100%;
+  min-height: 860px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}

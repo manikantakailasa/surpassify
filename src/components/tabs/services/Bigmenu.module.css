@@ -1,0 +1,46 @@
+.bigmenu {
+  width: 100;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  overflow: scroll;
+  margin: 5rem;
+}
+
+.bigmenu > div {
+  line-height: 2;
+  font-family: Poppins;
+  font-size: 1rem;
+}
+
+.bigmenu .menuback {
+  background-color: rgb(249, 249, 249);
+  border-radius: 1rem;
+}
+
+.bigmenu h3 {
+  padding-left: 1rem;
+}
+
+@media screen and (max-width: 1640px) {
+  .bigmenu {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .aboutus .container {
+    margin: 0;
+    width: 100%;
+  }
+  .images {
+    width: 100%;
+    top: 85%;
+    background: transparent;
+  }
+  .images img {
+    width: 10%;
+    height: 10%;
+    margin: 10px;
+  }
+}

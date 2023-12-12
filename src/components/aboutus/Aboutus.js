@@ -1,5 +1,5 @@
 import styles from "./Aboutus.module.css";
-import aboutus from "../../images/aboutus.png";
+import aboutus from "../../images/aboutus1.png";
 import eq from "../../images/eqilogo.png";
 import marshall from "../../images/marshalllogo.png";
 import cfi from "../../images/cfilogo.png";
@@ -12,7 +12,11 @@ const Aboutus = () => {
   return (
     <section>
       <Stack className={styles.aboutus}>
-        <img src={aboutus} className={styles.container} />
+        <img
+          src={aboutus}
+          className={styles.container}
+          style={{ borderRadius: "10px" }}
+        />
         <div className={styles.images}>
           <img src={marshall} />
           <img src={mbti} />

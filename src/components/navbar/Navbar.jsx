@@ -9,6 +9,7 @@ import {
   AiOutlineClose,
 } from "react-icons/ai";
 import { Divider, Link, ListItemIcon, Menu, MenuItem } from "@mui/material";
+import BigMenu from "../tabs/services/Bigmenu";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -56,17 +57,17 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <a onMouseEnter={handleClick}>Services</a>
+          <a onMouseOver={handleClick}>Services</a>
           <Menu
             anchorEl={anchorEl}
             id="account-menu"
             open={open}
             onClose={handleClose}
-            onClick={handleClose}
-            
+            MenuListProps={{ onMouseLeave: handleClose }}
             PaperProps={{
-              elevation:0,
+              elevation: 0,
               sx: {
+                borderRadius: "1rem",
                 overflow: "visible",
                 width: "100%",
                 filter: "drop-shadow(0px 2px 8px rgba(0,0,0,0.32))",
@@ -94,12 +95,7 @@ const Navbar = () => {
             transformOrigin={{ horizontal: "right", vertical: "top" }}
             anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
           >
-            <MenuItem onClick={handleClose}>Profile</MenuItem>
-            <MenuItem onClick={handleClose}>My account</MenuItem>
-            <Divider />
-            <MenuItem onClick={handleClose}>Add another account</MenuItem>
-            <MenuItem onClick={handleClose}>Settings</MenuItem>
-            <MenuItem onClick={handleClose}>Logout</MenuItem>
+            <BigMenu />
           </Menu>
         </li>
         <li>

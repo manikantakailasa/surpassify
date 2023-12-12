@@ -7,7 +7,7 @@ const Landing = () => {
     <div className={styles.hero}>
       <div className={styles.overlay}>
         <div className={styles.layout}>
-          <Stack flex={3}>
+          {/* <Stack flex={3}>
             <p className={styles.heading}>
               Coaching Leaders & Transforming Organisations
             </p>
@@ -24,7 +24,7 @@ const Landing = () => {
             <Button variant="outlined" className={styles.button}>
               Why Us?
             </Button>
-          </Stack>
+          </Stack> */}
         </div>
       </div>
     </div>
