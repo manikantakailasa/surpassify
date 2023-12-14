@@ -1,7 +1,7 @@
 .whatwedo {
   /* background: url("../../images/aboutus-bg.jpg"); */
   /* background-attachment: fixed; */
-  padding: 45px 0;
+  padding: 4rem 0;
   margin-top: 7rem;
 }
 
@@ -22,12 +22,25 @@
 
 .whatwedo .text {
   color: #828282;
-  font-size: 1.3rem;
-  line-height: 40px;
+  font-size: 1.5rem;
+  line-height: 50px;
   display: flex;
   justify-content: center;
-  padding: 25px;
-  font-family: "Roboto";
+  padding: 0 25px;
+  font-family: "Poppins";
+}
+
+.whatwedo .textleft {
+  /* padding-left: 40px; */
+  height: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.whatwedo .textleft h4 {
+  font-weight: 200;
 }
 
 /* .find {

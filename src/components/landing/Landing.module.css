@@ -1,7 +1,7 @@
 .hero {
-  background: url("../../images/home2.png") no-repeat center/cover;
+  background: url("../../images/home1.png") no-repeat center/cover;
   /* height: 850px; */
-  height: 980px;
+  height: 800px;
 }
 
 .overlay {
@@ -12,63 +12,106 @@
 .hero .layout {
   height: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   margin: 0 25px;
 }
 
 .hero .heading {
+  width: 50%;
   font-weight: bold;
-  font-size: 70px;
+  font-style: Poppins;
+  font-size: 7.5rem;
   color: whitesmoke;
 }
 
 .hero .subheading {
+  width: 50%;
+  font-style: Poppins;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 3rem;
   color: whitesmoke;
 }
 
 .hero .button {
+  margin-top: 85px;
+  background-color: orange;
+  width: 20%;
   color: whitesmoke;
   height: 80px;
   border: 2px solid whitesmoke;
-  font-size: 24px;
-  font-weight: bold;
-  font-family: monospace;
-  padding: 3.5rem 10rem;
+  font-size: 2rem;
+  border-radius: 40px;
+  font-family: Poppins;
 }
 
 .hero .button:hover {
   border: 2px solid #a1a5a0;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1400px) {
   .hero .heading {
-    font-size: 50px;
+    font-size: 6rem;
   }
   .hero .subheading {
-    font-size: 18px;
+    font-size: 2rem;
   }
   .hero .button {
-    font-size: 21px;
-    padding: 2.5rem 7rem;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .hero .heading {
+    font-size: 5rem;
+  }
+  .hero .subheading {
+    font-size: 2rem;
+  }
+  .hero .button {
+    margin-top: 220px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero .heading {
+    font-size: 5rem;
+  }
+  .hero .subheading {
+    font-size: 2rem;
+  }
+  .hero .button {
+    margin-top: 220px;
+  }
+  .hero .button {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    width: 30%;
   }
 }
 
 @media screen and (max-width: 450px) {
   .hero .layout {
-    flex-wrap: wrap;
+    margin: 0 15px;
     justify-content: center;
+    align-items: center;
   }
   .hero {
-    height: 750px;
+    height: 850px;
     padding-top: 5rem;
   }
   .hero .subheading {
     font-weight: 200;
+    font-size: 2rem;
+    width: 100%;
   }
   .hero .heading {
-    font-weight: 400;
+    width: 100%;
+    font-size: 4rem;
+  }
+  .hero .button {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    width: 40%;
   }
 }

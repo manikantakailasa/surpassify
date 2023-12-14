@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import wedo from "../../images/whatwedo.png";
-import { Grid, Stack } from "@mui/material";
+import { Divider, Grid, Stack } from "@mui/material";
 import Styles from "./WhatWeDo.module.css";
 
 const WhatWeDo = () => {
@@ -40,49 +39,52 @@ const WhatWeDo = () => {
     <section className={Styles.whatwedo}>
       <Grid
         container
-        spacing={2}
         display="flex"
         justifyContent="center"
-        alignItems="center"
+        alignItems="flex-start"
       >
-        <Grid item md={6} xs={12} display="flex" justifyContent="center">
-          <img
-            id="image"
-            ref={targetRef}
-            src={wedo}
-            style={{ width: "150%", opacity: 0 }}
-          />
+        <Grid item md={5} xs={12} className={Styles.textleft}>
+          <h4>
+            <span
+              style={{
+                fontSize: "4.5rem",
+                letterSpacing: "-2px",
+                fontWeight: 700,
+              }}
+            >
+              S
+            </span>
+            trategic <br /> Empowerment: <br />
+            Catalyzing <br /> Accelerated Growth
+            <Divider
+              color="#FF3131"
+              style={{
+                marginTop: "2rem",
+                width: "80%",
+                borderBottomWidth: 5,
+              }}
+            />
+          </h4>
         </Grid>
-        <Grid item md={6} xs={12}>
+        <Grid item md={5} xs={12}>
           <Stack id="text" spacing={6} className={Styles.text}>
             <p>
               <span
                 style={{
-                  fontSize: "4rem",
+                  fontSize: "2.5rem",
                   color: "black",
-                  letterSpacing: "-5px",
+                  letterSpacing: "-2px",
                   fontWeight: "300",
                 }}
               >
                 W
               </span>
-              <span style={{ fontWeight: "400" }}>
-                e drive and expedite transformative growth for executives and
-                leadership teams,
-              </span>
-              <span style={{ fontWeight: "200" }}>
-                fostering accelerated development and sustained success.
-              </span>
-            </p>
-            <p>
-              <span style={{ fontWeight: "200" }}>
-                At our core, we specialize in orchestrating and expediting
-                transformative growth initiatives tailored for executives and
-                leadership teams. Through strategic facilitation, we empower
-                individuals and teams to navigate change seamlessly,
-              </span>{" "}
-              unlocking their full potential and propelling them towards
-              sustained success.
+              e elevate organizational potential by empowering executive and
+              leadership teams. Through startegic guidance, we accelerate growth
+              and navigate transformative journeys. Our tailored solutions
+              cultivate leadership excellence, driving sustained success and
+              fostering a culture of innovation and resilience fostering
+              accelerated development and sustained success.
             </p>
           </Stack>
         </Grid>

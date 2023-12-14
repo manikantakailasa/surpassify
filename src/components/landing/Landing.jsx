@@ -7,20 +7,17 @@ const Landing = () => {
     <div className={styles.hero}>
       <div className={styles.overlay}>
         <div className={styles.layout}>
-          {/* <Stack flex={3}>
-            <p className={styles.heading}>
-              Coaching Leaders & Transforming Organisations
-            </p>
+          <Stack>
+            <p className={styles.heading}>Journey Of Excellence</p>
             <p className={styles.subheading}>
-              Agile Insights empowers leaders through expert coaching,
-              catalyzing transformative journeys that reshape organizations for
-              sustained excellence.
+              Coaching Leaders, Transforming Organization for Sustainable
+              Success
             </p>
-          </Stack>
-          <Stack spacing={2} flex={1}>
-            <Button variant="outlined" className={styles.button}>
-              Get Started
+            <Button variant="contained" className={styles.button}>
+              DIVE IN
             </Button>
+          </Stack>
+          {/* <Stack spacing={2} flex={1}>
             <Button variant="outlined" className={styles.button}>
               Why Us?
             </Button>

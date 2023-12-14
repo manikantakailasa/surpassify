@@ -1,0 +1,28 @@
+.container {
+  min-height: 750px;
+  background-color: #ff5757;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  line-height: 8rem;
+  color: white;
+  padding: 0 15%;
+  font-family: Poppins;
+}
+
+.container .button {
+  margin-top: 2rem;
+  background-color: orange;
+  color: black;
+  border: 2px solid whitesmoke;
+  font-size: 1.5rem;
+  border-radius: 40px;
+  font-family: Poppins;
+}
+
+.container p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+}

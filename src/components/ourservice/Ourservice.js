@@ -4,7 +4,7 @@ import blue from "../../images/blue.png";
 import red from "../../images/red.webp";
 import orange from "../../images/orange.webp";
 import green from "../../images/green.webp";
-
+import TrendingFlatIcon from "@material-ui/icons/TrendingFlat";
 const Ourservice = () => {
   const handleOnFocus = () => {
     document.getElementById("heading").style.color = "#fff";
@@ -43,9 +43,10 @@ const Ourservice = () => {
           >
             <p>Coaching</p>
             <p>
-              Cultivate an authentic, emotionally resilient, and consistently
-              effective leadership approach you can sustain
+              Shape impactful growth with a strategy fueled by stakeholder
+              insights
             </p>
+            <TrendingFlatIcon />
           </Stack>
         </Grid>
         <Grid item md={12 / 5} sm={4} className={styles.textborder}>
@@ -71,6 +72,7 @@ const Ourservice = () => {
               Shape impactful growth with a strategy fueled by stakeholder
               insights
             </p>
+            <TrendingFlatIcon />
           </Stack>
         </Grid>
         <Grid item md={12 / 5} sm={4} className={styles.textborder}>
@@ -90,10 +92,12 @@ const Ourservice = () => {
             onMouseEnter={handleOnFocus}
             onMouseLeave={handleOnLeave}
           >
-            <p>Agile Transformation</p>
+            <p>Agile Transform</p>
             <p>
-              Drive success withScaled Agile transformation in your organization
+              Shape impactful growth with a strategy fueled by stakeholder
+              insights
             </p>
+            <TrendingFlatIcon />
           </Stack>
         </Grid>
         <Grid item md={12 / 5} sm={4} className={styles.textborder}>
@@ -113,12 +117,12 @@ const Ourservice = () => {
             onMouseEnter={handleOnFocus}
             onMouseLeave={handleOnLeave}
           >
-            <p>Emotional Intelligence</p>
+            <p>Emotional Intel.</p>
             <p>
-              Creating outstanding business products and services, fostering
-              success, and achieving high performance with a skilled and
-              emotionally intelligent workforce
+              Shape impactful growth with a strategy fueled by stakeholder
+              insights
             </p>
+            <TrendingFlatIcon />
           </Stack>
         </Grid>
         <Grid item md={12 / 5} sm={4} className={styles.textborder}>
@@ -138,11 +142,12 @@ const Ourservice = () => {
             onMouseEnter={handleOnFocus}
             onMouseLeave={handleOnLeave}
           >
-            <p>Workshops & Assessments</p>
+            <p>Assessments</p>
             <p>
-              Profound exploration of our current position to pave the way for
-              tangible progress and meaningful outcomes
+              Shape impactful growth with a strategy fueled by stakeholder
+              insights
             </p>
+            <TrendingFlatIcon />
           </Stack>
         </Grid>
       </Grid>
