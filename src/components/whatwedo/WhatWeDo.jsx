@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import wedo from "../../images/whatwedo1.png";
+import wedo from "../../images/whatwedo.png";
 import { Grid, Stack } from "@mui/material";
 import Styles from "./WhatWeDo.module.css";
 
@@ -45,12 +45,12 @@ const WhatWeDo = () => {
         justifyContent="center"
         alignItems="center"
       >
-        <Grid item md={12} xs={12} display="flex" justifyContent="center">
+        <Grid item md={6} xs={12} display="flex" justifyContent="center">
           <img
             id="image"
             ref={targetRef}
             src={wedo}
-            style={{ width: "80%", opacity: 0, borderRadius: "10px" }}
+            style={{ width: "150%", opacity: 0 }}
           />
         </Grid>
         <Grid item md={6} xs={12}>

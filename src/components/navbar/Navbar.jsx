@@ -105,7 +105,7 @@ const Navbar = () => {
           <a href="/resource">Resources</a>
         </li>
         <li>
-          <a href="/contact">contact</a>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
       <div onClick={() => setNav(!nav)} className={styles.mobile_btn}>
