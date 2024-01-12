@@ -21,9 +21,9 @@ const Accredited = () => {
               Authenetic <br /> Interatcions
             </p>
             <Divider
-              color="red"
+              color="#E26524"
               sx={{
-                borderBottomWidth: 3,
+                borderBottomWidth: 1,
                 margin: "0 4rem ",
               }}
             />
@@ -40,8 +40,8 @@ const Accredited = () => {
               <br /> Results
             </p>
             <Divider
-              color="red"
-              sx={{ borderBottomWidth: 3, margin: "0 4rem " }}
+              color="#E26524"
+              sx={{ borderBottomWidth: 1, margin: "0 4rem " }}
             />
             <p className={styles.content}>
               Our objective is to deliver exceptional outcomes, which comprise
@@ -54,7 +54,7 @@ const Accredited = () => {
       </Grid>
       <Grid item md={4} sx={{ padding: "1rem" }} className={styles.images}>
         <p className={styles.header}>Accredited Expertise</p>
-        {/* <Divider color="red" sx={{ borderBottomWidth: 3 }} />s */}
+        {/* <Divider color="red" sx={{ borderBottomWidth: 1 }} /> */}
         <div>
           <img src={accre} />
           {/* <img src={spc} />

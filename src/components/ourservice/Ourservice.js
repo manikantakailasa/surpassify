@@ -24,10 +24,10 @@ const Ourservice = () => {
         minHeight={400}
       >
         <p id="heading" />
-        <Grid item md={12 / 5} sm={4} className={styles.textborder}>
+        <Grid item md={3} sm={4} className={styles.textborder}>
           <Stack
             spacing={4}
-            padding={4}
+            padding={10}
             minHeight={400}
             sx={{
               ":hover": {
@@ -41,7 +41,7 @@ const Ourservice = () => {
             onMouseEnter={handleOnFocus}
             onMouseLeave={handleOnLeave}
           >
-            <p>Coaching</p>
+            <p style={{ lineHeight: 3 }}>COACHING</p>
             <p>
               Shape impactful growth with a strategy fueled by stakeholder
               insights
@@ -49,10 +49,10 @@ const Ourservice = () => {
             <TrendingFlatIcon />
           </Stack>
         </Grid>
-        <Grid item md={12 / 5} sm={4} className={styles.textborder}>
+        <Grid item md={3} sm={4} className={styles.textborder}>
           <Stack
             spacing={4}
-            padding={4}
+            padding={10}
             minHeight={400}
             sx={{
               ":hover": {
@@ -67,7 +67,7 @@ const Ourservice = () => {
             onMouseEnter={handleOnFocus}
             onMouseLeave={handleOnLeave}
           >
-            <p>Consulting</p>
+            <p>CONSULTING & ASSESSMENT</p>
             <p>
               Shape impactful growth with a strategy fueled by stakeholder
               insights
@@ -75,10 +75,10 @@ const Ourservice = () => {
             <TrendingFlatIcon />
           </Stack>
         </Grid>
-        <Grid item md={12 / 5} sm={4} className={styles.textborder}>
+        <Grid item md={3} sm={4} className={styles.textborder}>
           <Stack
             spacing={4}
-            padding={4}
+            padding={10}
             minHeight={400}
             sx={{
               ":hover": {
@@ -92,7 +92,7 @@ const Ourservice = () => {
             onMouseEnter={handleOnFocus}
             onMouseLeave={handleOnLeave}
           >
-            <p>Agile Transform</p>
+            <p>SAFe TRANFORMATION</p>
             <p>
               Shape impactful growth with a strategy fueled by stakeholder
               insights
@@ -100,10 +100,10 @@ const Ourservice = () => {
             <TrendingFlatIcon />
           </Stack>
         </Grid>
-        <Grid item md={12 / 5} sm={4} className={styles.textborder}>
+        <Grid item md={3} sm={4} className={styles.textborder}>
           <Stack
             spacing={4}
-            padding={4}
+            padding={10}
             minHeight={400}
             sx={{
               ":hover": {
@@ -117,32 +117,7 @@ const Ourservice = () => {
             onMouseEnter={handleOnFocus}
             onMouseLeave={handleOnLeave}
           >
-            <p>Emotional Intel.</p>
-            <p>
-              Shape impactful growth with a strategy fueled by stakeholder
-              insights
-            </p>
-            <TrendingFlatIcon />
-          </Stack>
-        </Grid>
-        <Grid item md={12 / 5} sm={4} className={styles.textborder}>
-          <Stack
-            spacing={4}
-            padding={4}
-            minHeight={400}
-            sx={{
-              ":hover": {
-                background: `url('${blue}')`,
-                "& p": {
-                  color: "white",
-                  transition: "color 400ms ease-in-out",
-                },
-              },
-            }}
-            onMouseEnter={handleOnFocus}
-            onMouseLeave={handleOnLeave}
-          >
-            <p>Assessments</p>
+            <p>EMOTIONAL INTELLIGENCE</p>
             <p>
               Shape impactful growth with a strategy fueled by stakeholder
               insights

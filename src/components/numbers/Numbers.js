@@ -7,7 +7,7 @@ const Numbers = () => {
       <div direction="row" className={styles.container}>
         <Stack className={styles.subcontainer}>
           <Stack direction="row">
-            <Stack className={styles.size}>35</Stack>
+            <Stack className={styles.size}>100</Stack>
             <Stack className={styles.plus}>+</Stack>
           </Stack>
           <Stack className={styles.text}>YEARS OF COMBINED EXPERIENCE</Stack>
@@ -23,7 +23,7 @@ const Numbers = () => {
         </Stack>
         <Stack className={styles.subcontainer}>
           <Stack direction="row">
-            <Stack className={styles.size}>375</Stack>
+            <Stack className={styles.size}>2125</Stack>
             <Stack className={styles.plus}>+</Stack>
           </Stack>
           <Stack className={styles.text}>
@@ -32,7 +32,7 @@ const Numbers = () => {
         </Stack>
         <Stack className={styles.subcontainer}>
           <Stack direction="row">
-            <Stack className={styles.size}>75</Stack>
+            <Stack className={styles.size}>200</Stack>
             <Stack className={styles.plus}>+</Stack>
           </Stack>
           <Stack className={styles.text}>LEADERSHIP TEAMS BUILT</Stack>

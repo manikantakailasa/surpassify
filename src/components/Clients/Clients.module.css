@@ -21,10 +21,10 @@
   width: 80%;
   padding: 3rem 0;
   font-family: "Poppins";
-  font-weight: 200;
+  font-weight: 400;
   font-size: 2.2rem;
   color: #3f3f3f;
-}
+} 
 
 .dflex {
   width: 100%; /* Set to a multiple of 100% to ensure seamless looping */

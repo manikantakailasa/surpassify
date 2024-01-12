@@ -16,11 +16,11 @@ const Approach = () => {
               margin: "0 5rem ",
             }}
           />
-          <p style={{ fontStyle: "italic", marginTop: "20px" }}>
+          <p style={{ marginTop: "20px" }}>
             Our focus is on culture change, one leader and team at a time. Let's
             work together to achieve it.
           </p>
-          <p style={{ padding: "35px", fontSize: "1.5rem" }}>
+          <p style={{ padding: "35px", fontSize: "1rem", lineHeight: "40px" }}>
             If running a company is like piloting a spaceship, then leaders and
             their team are the engine that drives the whole thing forward. And
             just like a skilled mechanic, we're known for our ability to

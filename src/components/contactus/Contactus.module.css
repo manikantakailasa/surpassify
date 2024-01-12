@@ -4,6 +4,61 @@
   height: 900px;
 }
 
+.addcontainer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.addcontainer1 .addcontant1:first-child {
+  background-color: #f1f1f1;
+}
+
+.addcontainer1 .addcontant1:nth-child(2) {
+  background-color: #f6f6f6;
+}
+
+.addcontainer1 .addcontant1:last-child {
+  background-color: #f1f1f1;
+}
+
+.addcontainer .addcontant:first-child {
+  background-color: #f1f1f1;
+}
+
+.addcontainer .addcontant:nth-child(2) {
+  background-color: #f6f6f6;
+}
+
+.addcontainer .addcontant:last-child {
+  background-color: #f1f1f1;
+}
+
+.addcontainer1 .addcontant1 {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: #717171;
+}
+.addcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+}
+
+.addcontainer .addcontant {
+  text-align: center;
+  height: 100%;
+  font-size: 0.8rem;
+  padding: 0 2rem;
+  color: #717171;
+}
+
 .contactus .layout {
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -14,7 +69,8 @@
 }
 
 .contactus .layout p {
-  font-size: 10rem;
+  width: 50%;
+  font-size: 6rem;
   font-family: Poppins;
   color: white;
 }
@@ -45,6 +101,11 @@
 .form input::placeholder {
   color: #232323;
   font-size: 1rem;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
 }
 
 .button {

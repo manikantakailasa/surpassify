@@ -23,7 +23,7 @@
 .whatwedo .text {
   color: #828282;
   font-size: 1.5rem;
-  line-height: 50px;
+  line-height: 45px;
   display: flex;
   justify-content: center;
   padding: 0 25px;
@@ -37,10 +37,12 @@
   align-items: flex-start;
   font-size: 2.5rem;
   font-weight: 100;
+  text-align: right;
+  padding-right: 4rem;
 }
 
 .whatwedo .textleft h4 {
-  font-weight: 200;
+  font-weight: 400;
 }
 
 /* .find {

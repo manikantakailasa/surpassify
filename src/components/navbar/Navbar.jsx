@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
-import Logo from "../../images/logo.png";
+import Logo from "../../images/logo2.png";
 
 import {
   AiOutlineUser,
@@ -46,14 +46,14 @@ const Navbar = () => {
         style={{ cursor: "pointer" }}
         src={Logo}
         alt="Logo"
-        width="230px"
+        width="330px"
       />
       <ul
         className={nav ? [styles.menu, styles.active].join(" ") : [styles.menu]}
       >
-        <li style={{ border: "2px solid white", borderRadius: "38%" }}>
+        <li>
           <Link style={{ textDecoration: "none" }} href="/">
-            Home
+            About
           </Link>
         </li>
         <li>

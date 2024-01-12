@@ -49,7 +49,7 @@ const WhatWeDo = () => {
               style={{
                 fontSize: "4.5rem",
                 letterSpacing: "-2px",
-                fontWeight: 700,
+                fontWeight: 400,
               }}
             >
               S
@@ -57,11 +57,12 @@ const WhatWeDo = () => {
             trategic <br /> Empowerment: <br />
             Catalyzing <br /> Accelerated Growth
             <Divider
-              color="#FF3131"
+              color="#E26524"
               style={{
                 marginTop: "2rem",
-                width: "80%",
-                borderBottomWidth: 5,
+                width: "50%",
+                borderBottomWidth: 2,
+                float: "right",
               }}
             />
           </h4>
