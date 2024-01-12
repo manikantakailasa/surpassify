@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/surpassify/static/css/main.a3e60b76.css",
-    "main.js": "/surpassify/static/js/main.ccc299a0.js",
+    "main.css": "/surpassify/static/css/main.75f2a499.css",
+    "main.js": "/surpassify/static/js/main.9202d89c.js",
     "static/media/home1.png": "/surpassify/static/media/home1.a51bf27e35e0ea776e85.png",
-    "static/media/aboutus.png": "/surpassify/static/media/aboutus.66a1b43a28641e942350.png",
+    "static/media/about us.png": "/surpassify/static/media/about us.ef140e9a0a1db9dabed2.png",
     "static/media/approach1.png": "/surpassify/static/media/approach1.9ba45831c163dd75039b.png",
+    "static/media/entcoaching.png": "/surpassify/static/media/entcoaching.08fd24d5fe60485cfbf0.png",
     "static/media/schedulecall.png": "/surpassify/static/media/schedulecall.46355683eae7b0171a96.png",
+    "static/media/teamcoaching.png": "/surpassify/static/media/teamcoaching.75fdc6b9ba35654c4d89.png",
     "static/media/nats.png": "/surpassify/static/media/nats.137d2598c4f5f72d8b30.png",
     "static/media/accrelogo.png": "/surpassify/static/media/accrelogo.c372da3b990082ea42b9.png",
     "static/media/Danfos.png": "/surpassify/static/media/Danfos.bfcec4e757cafb14b48c.png",
     "static/media/applied.png": "/surpassify/static/media/applied.1cf76a9da47964c98700.png",
     "static/media/lloyds.png": "/surpassify/static/media/lloyds.6704409010d008fc6b29.png",
     "static/media/SELF-TEAM-COMPANY - right1.png": "/surpassify/static/media/SELF-TEAM-COMPANY - right1.fdd5cd81ff1eb0c9ce74.png",
+    "static/media/exeleadership.png": "/surpassify/static/media/exeleadership.1c9a2c2d67ef88ea6e2a.png",
     "static/media/newfold.png": "/surpassify/static/media/newfold.5dbbe8996bc771381fe1.png",
+    "static/media/map.png": "/surpassify/static/media/map.4a6f27f01ebe60ea08cd.png",
     "static/media/Nielsen.png": "/surpassify/static/media/Nielsen.01b93e9dd78185ac18ac.png",
     "static/media/boeing.png": "/surpassify/static/media/boeing.09897bde627f439c06a4.png",
+    "static/media/indicoaching.png": "/surpassify/static/media/indicoaching.5b19799c3d8a6a1bd05a.png",
     "static/media/fedex.png": "/surpassify/static/media/fedex.e9aa34ee5f42e4788b26.png",
     "static/media/betfair.png": "/surpassify/static/media/betfair.c1f02ad445f68fddac6c.png",
     "static/media/ericssion.png": "/surpassify/static/media/ericssion.8a80b633496933af9097.png",
+    "static/media/logo2.png": "/surpassify/static/media/logo2.7dc1f99238ea34fac61c.png",
     "static/media/serviceback.webp": "/surpassify/static/media/serviceback.d8513418ee8d38960d87.webp",
     "static/media/minilogo.png": "/surpassify/static/media/minilogo.7cea733cb391f1f2eb48.png",
     "static/media/contactus.webp": "/surpassify/static/media/contactus.c5b5a098982bf55dc991.webp",
@@ -35,11 +41,11 @@
     "static/media/green.webp": "/surpassify/static/media/green.a433370e3bb79379d490.webp",
     "static/media/red.webp": "/surpassify/static/media/red.9937f34bb961b5a393e3.webp",
     "index.html": "/surpassify/index.html",
-    "main.a3e60b76.css.map": "/surpassify/static/css/main.a3e60b76.css.map",
-    "main.ccc299a0.js.map": "/surpassify/static/js/main.ccc299a0.js.map"
+    "main.75f2a499.css.map": "/surpassify/static/css/main.75f2a499.css.map",
+    "main.9202d89c.js.map": "/surpassify/static/js/main.9202d89c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3e60b76.css",
-    "static/js/main.ccc299a0.js"
+    "static/css/main.75f2a499.css",
+    "static/js/main.9202d89c.js"
   ]
 }
