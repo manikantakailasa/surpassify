@@ -34,6 +34,8 @@ const Services = () => {
                   display: "flex",
                   flexDirection: "column",
                   width: "100%",
+                  backgroundColor: "#61CAEB",
+                  color: "white",
                 }}
               >
                 <span
@@ -64,6 +66,8 @@ const Services = () => {
                   display: "flex",
                   flexDirection: "column",
                   width: "100%",
+                  backgroundColor: "#F89B4F",
+                  color: "white",
                 }}
               >
                 <span
@@ -94,6 +98,8 @@ const Services = () => {
                   display: "flex",
                   flexDirection: "column",
                   width: "100%",
+                  backgroundColor: "#42CFBD",
+                  color: "white",
                 }}
               >
                 <span
@@ -124,6 +130,8 @@ const Services = () => {
                   display: "flex",
                   flexDirection: "column",
                   width: "100%",
+                  backgroundColor: "#D249B9",
+                  color: "white",
                 }}
               >
                 <span
