@@ -1,15 +1,10 @@
-import { React, useEffect, useState } from "react";
-import styles from "./Navbar.module.css";
-import Logo from "../../images/logo2.png";
+import { React, useEffect, useState } from 'react';
+import styles from './Navbar.module.css';
+import Logo from '../../images/logo2.png';
 
-import {
-  AiOutlineUser,
-  AiOutlineSearch,
-  AiOutlineMenu,
-  AiOutlineClose,
-} from "react-icons/ai";
-import { Divider, Link, ListItemIcon, Menu, MenuItem } from "@mui/material";
-import BigMenu from "../tabs/services/Bigmenu";
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import { Link, Menu } from '@mui/material';
+import BigMenu from '../tabs/services/Bigmenu';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -31,28 +26,28 @@ const Navbar = () => {
     };
 
     // Add the event listener when the component mounts
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
     // Remove the event listener when the component unmounts
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
   return (
     <nav className={isScrolled ? styles.sticky : styles.navbar}>
       <img
-        onClick={() => (window.location = "./")}
-        style={{ cursor: "pointer" }}
+        onClick={() => (window.location = './')}
+        style={{ cursor: 'pointer' }}
         src={Logo}
         alt="Logo"
         width="330px"
       />
       <ul
-        className={nav ? [styles.menu, styles.active].join(" ") : [styles.menu]}
+        className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}
       >
         <li>
-          <Link style={{ textDecoration: "none" }} href="/">
+          <Link style={{ textDecoration: 'none' }} href="/surpassify">
             About
           </Link>
         </li>
@@ -67,45 +62,45 @@ const Navbar = () => {
             PaperProps={{
               elevation: 0,
               sx: {
-                borderRadius: "1rem",
-                overflow: "visible",
-                width: "100%",
-                filter: "drop-shadow(0px 2px 8px rgba(0,0,0,0.32))",
+                borderRadius: '1rem',
+                overflow: 'visible',
+                width: '100%',
+                filter: 'drop-shadow(0px 2px 8px rgba(0,0,0,0.32))',
                 mt: 3,
-                "& .MuiAvatar-root": {
+                '& .MuiAvatar-root': {
                   width: 132,
                   height: 32,
                   ml: -0.5,
                   mr: 1,
                 },
-                "&:before": {
+                '&:before': {
                   content: '""',
-                  display: "block",
-                  position: "absolute",
+                  display: 'block',
+                  position: 'absolute',
                   top: 0,
                   right: 400,
                   width: 10,
                   height: 10,
-                  bgcolor: "background.paper",
-                  transform: "translateY(-50%) rotate(45deg)",
+                  bgcolor: 'background.paper',
+                  transform: 'translateY(-50%) rotate(45deg)',
                   zIndex: 0,
                 },
               },
             }}
-            transformOrigin={{ horizontal: "right", vertical: "top" }}
-            anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
+            transformOrigin={{ horizontal: 'right', vertical: 'top' }}
+            anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
           >
             <BigMenu />
           </Menu>
         </li>
         <li>
-          <a href="/whatsnew">Whats New?</a>
+          <a href="/surpassify/whatsnew">Whats New?</a>
         </li>
         <li>
-          <a href="/resource">Resources</a>
+          <a href="/surpassify/resource">Resources</a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a href="/surpassify/contact">Contact</a>
         </li>
       </ul>
       <div onClick={() => setNav(!nav)} className={styles.mobile_btn}>
