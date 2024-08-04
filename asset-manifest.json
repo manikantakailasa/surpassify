@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/surpassify/static/css/main.75f2a499.css",
-    "main.js": "/surpassify/static/js/main.9202d89c.js",
+    "main.js": "/surpassify/static/js/main.17470771.js",
     "static/media/home1.png": "/surpassify/static/media/home1.a51bf27e35e0ea776e85.png",
     "static/media/about us.png": "/surpassify/static/media/about us.ef140e9a0a1db9dabed2.png",
     "static/media/approach1.png": "/surpassify/static/media/approach1.9ba45831c163dd75039b.png",
@@ -42,10 +42,10 @@
     "static/media/red.webp": "/surpassify/static/media/red.9937f34bb961b5a393e3.webp",
     "index.html": "/surpassify/index.html",
     "main.75f2a499.css.map": "/surpassify/static/css/main.75f2a499.css.map",
-    "main.9202d89c.js.map": "/surpassify/static/js/main.9202d89c.js.map"
+    "main.17470771.js.map": "/surpassify/static/js/main.17470771.js.map"
   },
   "entrypoints": [
     "static/css/main.75f2a499.css",
-    "static/js/main.9202d89c.js"
+    "static/js/main.17470771.js"
   ]
 }
