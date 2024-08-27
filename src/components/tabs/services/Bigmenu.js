@@ -8,7 +8,7 @@ const BigMenu = () => {
         <h3>Agile Transformation</h3>
         <hr />
         <div className={styles.menuback}>
-          <MenuItem href="/surpassify/services" component={Link}>
+          <MenuItem href="#/services" component={Link}>
             Agile Assessment
           </MenuItem>
           <MenuItem>Agile Training</MenuItem>

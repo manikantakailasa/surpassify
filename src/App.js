@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import Landing from "./components/landing/Landing";
 import Footer from "./components/footer/Footer";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import MainLanding from "./components/mainLanding/MainLanding";
 import Contactus from "./components/contactus/Contactus";
 import Services from "./components/tabs/services/Services";
@@ -17,10 +17,10 @@ function App() {
       >
         <Navbar />
         <Routes>
-          <Route exact path="surpassify/" element={<MainLanding />}></Route>
-          <Route path="surpassify/source" element={<Landing />}></Route>
-          <Route path="surpassify/contact" element={<Contactus />}></Route>
-          <Route path="surpassify/services" element={<Services />}></Route>
+          <Route exact path="/" element={<MainLanding />}></Route>
+          <Route path="/source" element={<Landing />}></Route>
+          <Route path="/contact" element={<Contactus />}></Route>
+          <Route path="/services" element={<Services />}></Route>
         </Routes>
 
         {/* <Agile />

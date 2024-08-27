@@ -23,8 +23,8 @@ const MainLanding = () => {
       <Success />
       <Aboutus />
       <Routes>
-        <Route path="/source" component={<Landing />}></Route>
-        <Route path="/contact" component={<Contactus />}></Route>
+        <Route path="#/source" component={<Landing />}></Route>
+        <Route path="#/contact" component={<Contactus />}></Route>
       </Routes>
     </>
   );

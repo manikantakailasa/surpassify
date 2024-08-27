@@ -94,13 +94,13 @@ const Navbar = () => {
           </Menu>
         </li>
         <li>
-          <a href="/surpassify/whatsnew">Whats New?</a>
+          <a href="#/whatsnew">Whats New?</a>
         </li>
         <li>
-          <a href="/surpassify/resource">Resources</a>
+          <a href="#/resource">Resources</a>
         </li>
         <li>
-          <a href="/surpassify/contact">Contact</a>
+          <a href="#/contact">Contact</a>
         </li>
       </ul>
       <div onClick={() => setNav(!nav)} className={styles.mobile_btn}>
