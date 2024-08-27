@@ -4,7 +4,8 @@ import blue from "../../images/blue.png";
 import red from "../../images/red.webp";
 import orange from "../../images/orange.webp";
 import green from "../../images/green.webp";
-import TrendingFlatIcon from "@material-ui/icons/TrendingFlat";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+
 const Ourservice = () => {
   const handleOnFocus = () => {
     document.getElementById("heading").style.color = "#fff";
@@ -46,7 +47,7 @@ const Ourservice = () => {
               Shape impactful growth with a strategy fueled by stakeholder
               insights
             </p>
-            <TrendingFlatIcon />
+            <ArrowForwardIcon />
           </Stack>
         </Grid>
         <Grid item md={3} sm={4} className={styles.textborder}>
@@ -72,7 +73,7 @@ const Ourservice = () => {
               Shape impactful growth with a strategy fueled by stakeholder
               insights
             </p>
-            <TrendingFlatIcon />
+            <ArrowForwardIcon />
           </Stack>
         </Grid>
         <Grid item md={3} sm={4} className={styles.textborder}>
@@ -97,7 +98,7 @@ const Ourservice = () => {
               Shape impactful growth with a strategy fueled by stakeholder
               insights
             </p>
-            <TrendingFlatIcon />
+            <ArrowForwardIcon />
           </Stack>
         </Grid>
         <Grid item md={3} sm={4} className={styles.textborder}>
@@ -122,7 +123,7 @@ const Ourservice = () => {
               Shape impactful growth with a strategy fueled by stakeholder
               insights
             </p>
-            <TrendingFlatIcon />
+            <ArrowForwardIcon />
           </Stack>
         </Grid>
       </Grid>

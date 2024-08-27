@@ -1,13 +1,11 @@
 import React from "react";
 import { Grid, MenuItem, Select, Stack } from "@mui/material";
 import styles from "./Contactus.module.css";
-import { useEffect } from "react";
 import schedule from "../../images/schedulecall.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import LanguageIcon from "@mui/icons-material/Language";
 import PhoneIcon from "@mui/icons-material/Phone";
 import map from "../../images/map.png";
-import { InputLabel } from "@material-ui/core";
 
 const Contactus = () => {
   // useEffect(() => {
